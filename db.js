@@ -20,7 +20,7 @@ const mongoDB = async () => {
       // else{
       //   global.food_items = data;
       // }
-    });
+    }); 
   } catch (err) {
     console.log(err);
   }
